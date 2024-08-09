@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 100%;
+    width: 1000px;
     height: 100vh;
     background: #e3e3e3;
     display: flex;
@@ -16,6 +16,32 @@
     
 
 
+}
+@media(max-width:600px){
+
+    .container{
+        width: 100%;
+    }
+}
+@media(min-width:601px){
+    .container{
+        width: 100%;
+    }
+}
+@media(min-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+@media(min-width:992px){
+    .container{
+        width: 100%;
+    }
+}
+@media(min-width:1000px){
+    .container{
+        width: 100%;
+    }
 }
 
 .calculator{
@@ -76,3 +102,4 @@ form input.output{
     overflow: hidden;
     width: 100%;
 }
+
